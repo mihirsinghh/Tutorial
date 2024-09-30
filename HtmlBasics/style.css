@@ -3,7 +3,7 @@ body {
     animation: flashBackground 0.5s infinite alternate;
     font-family: 'Comic Sans MS', cursive, sans-serif;
     text-align: center;
-    font-size: 3em;
+    font-size: x-large;
     transform: rotate(360deg);
     animation: spin 3s infinite linear, zoom 2s infinite alternate;
 }
@@ -26,10 +26,14 @@ body {
 */
 
 h1 {
-    color: red;
+    color: rgb(192, 7, 146);
     animation: colorChange 1s infinite;
-    font-size: 5em;
-    text-shadow: 5px 5px 5px yellow, 10px 10px 5px black;
+    font-size: xx-large;
+}
+
+.custom-word {
+    text-shadow: 5px 5px purple;
+    color: rgb(33, 201, 33);
 }
 /*
 @keyframes colorChange {
@@ -42,6 +46,7 @@ h1 {
 p {
     color: hotpink;
     animation: moveText 2s infinite;
+    font-size: smaller;
     letter-spacing: 5px;
 }
 /*
@@ -53,9 +58,9 @@ p {
 */
 
 a {
-    color: green;
+    color: rgb(15, 233, 15);
     animation: bounce 1s infinite alternate;
-    text-decoration: underline wavy red;
+    text-decoration: underline wavy rgb(61, 255, 213);
 }
 /*
 @keyframes bounce {

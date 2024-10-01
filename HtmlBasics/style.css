@@ -27,21 +27,25 @@ body {
 
 h1 {
     color: rgb(192, 7, 146);
-    animation: colorChange 1s infinite;
+    animation: 
+    colorChange 1s infinite,
+    bounce 1s infinite;
     font-size: xx-large;
 }
-
-.custom-word {
-    text-shadow: 5px 5px purple;
-    color: rgb(33, 201, 33);
-}
-/*
 @keyframes colorChange {
     0% { color: red; }
     50% { color: orange; }
     100% { color: purple; }
 }
-*/
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-30px);
+    }
+}
+
 
 p {
     color: hotpink;
